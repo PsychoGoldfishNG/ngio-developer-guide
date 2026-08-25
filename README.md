@@ -28,10 +28,13 @@ The guide covers:
 - **API integration** - Components, requests, responses, and encryption
 - **Model generation** - Automated creation of objects, components, and results from JSON schema
 - **Implementation patterns** - Callbacks, Promises, and async/sync method designs
+- **Component design** - Colors, fonts, sizing, and animation guidance for building UI prefabs like medal popups, scoreboards, and save managers
 
 ## Documentation
 
 **[View the complete Developer Guide Wiki →](https://github.com/PsychoGoldfishNG/ngio-developer-guide/wiki)**
+
+**[Component Design Guide →](https://github.com/PsychoGoldfishNG/ngio-developer-guide/wiki/Component-Design-Guide)**
 
 ## Official Resources
 
