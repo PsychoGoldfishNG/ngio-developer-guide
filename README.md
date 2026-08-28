@@ -1,17 +1,21 @@
 # Newgrounds.io Developer Guide
 
-A comprehensive guide for building Newgrounds.io libraries across different platforms and programming languages.
+A guide for building Newgrounds.io libraries across different platforms and programming languages.
 
 ## Overview
 
-This guide provides architectural patterns and implementation details for creating consistent Newgrounds.io API libraries. It's designed for developers, contributors, AI/LLM code generators, and anyone building integrations with the Newgrounds.io platform.
+This guide covers the architectural patterns and implementation details behind a consistent Newgrounds.io API library. It's written for developers, contributors, AI/LLM code generators, and anyone building integrations with the Newgrounds.io platform.
 
-## Key Features
+The goal is for most Newgrounds.io libraries to share a similar structure, so users can move between platforms without re-learning how each feature works. It also makes support a lot easier, since helping someone doesn't require knowing their specific programming language.
 
-- **Platform-agnostic architecture** - Consistent design patterns that work across any programming language
+## What's Covered
+
+- **Platform-agnostic architecture** - Design patterns that hold up in any programming language
 - **Complete library structure** - Core classes, model generation, and session management
-- **Best practices** - Encryption, authentication, async patterns, and data synchronization
-- **Developer-friendly** - Clear examples and pseudo-code specifications for easy implementation
+- **Encryption and authentication** - Ciphers, encoding, Passport sessions, and keeping data in sync
+- **Async patterns** - Callbacks, Promises, and how to translate between them
+- **Model generation** - Building objects, components, and results from the official JSON schema
+- **Component design** - Colors, fonts, sizing, and animation guidance for UI prefabs like medal popups, scoreboards, and save managers
 
 ## Who This Guide Is For
 
@@ -20,21 +24,11 @@ This guide provides architectural patterns and implementation details for creati
 - AI/LLM systems generating code implementations
 - Teams planning Newgrounds.io integrations
 
-## Getting Started
-
-The guide covers:
-
-- **Core architecture** - Wrapper classes, session management, and data models
-- **API integration** - Components, requests, responses, and encryption
-- **Model generation** - Automated creation of objects, components, and results from JSON schema
-- **Implementation patterns** - Callbacks, Promises, and async/sync method designs
-- **Component design** - Colors, fonts, sizing, and animation guidance for building UI prefabs like medal popups, scoreboards, and save managers
-
 ## Documentation
 
-**[View the complete Developer Guide Wiki →](https://github.com/PsychoGoldfishNG/ngio-developer-guide/wiki)**
+**[View the complete Developer Guide Wiki](https://github.com/PsychoGoldfishNG/ngio-developer-guide/wiki)**
 
-**[Component Design Guide →](https://github.com/PsychoGoldfishNG/ngio-developer-guide/wiki/Component-Design-Guide)**
+**[Component Design Guide](https://github.com/PsychoGoldfishNG/ngio-developer-guide/wiki/Component-Design-Guide)**
 
 ## Official Resources
 
@@ -49,4 +43,4 @@ The guide covers:
 
 ---
 
-**Note:** This guide focuses on library architecture and design patterns. For API-specific details (component parameters, response formats, encryption algorithms), always refer to the [official Newgrounds.io documentation](https://www.newgrounds.io/help/).
+**Note:** This guide is about library architecture and design patterns. For API-specific details like component parameters, response formats, and encryption algorithms, always refer to the [official Newgrounds.io documentation](https://www.newgrounds.io/help/).
